@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_B6QBsBH1EeqoiMHcDEQy2A">
+  <modelElement href="gradeCalculator.uml#_Cw6j8BH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_FXN30BH1EeqoiMHcDEQy2A" sourceAnchor="47.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_FWxL4BH1EeqoiMHcDEQy2A" containedItem="_FXXo0BH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_FYRAsBH1EeqoiMHcDEQy2A" sourceAnchor="47.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_FXXo0BH1EeqoiMHcDEQy2A" containedItem="_FZAnkBH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_FZAnkhH1EeqoiMHcDEQy2A" sourceAnchor="61.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_FZAnkBH1EeqoiMHcDEQy2A" containedItem="_FZJxgBH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_FaM6YBH1EeqoiMHcDEQy2A" sourceAnchor="452.0,0.0" targetAnchor="61.0,58.0" enclosingItem="_FZJxgBH1EeqoiMHcDEQy2A" containedItem="_FdeQ0BH1EeqoiMHcDEQy2A">
+    <bendpoints xmi:id="_GQd0AhH1EeqoiMHcDEQy2A" sourceY="-376" targetX="-117" targetY="36"/>
+    <bendpoints xmi:id="_GQd0AxH1EeqoiMHcDEQy2A" sourceX="117" sourceY="-376" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_FgdTYBH1EeqoiMHcDEQy2A" sourceAnchor="465.0,0.0" targetAnchor="102.0,308.0" superClass="_Fj4a4hH1EeqoiMHcDEQy2A" subClass="_FdeQ0BH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_C9bV8BH1EeqoiMHcDEQy2A"/>
+    <bendpoints xmi:id="_GQd0ABH1EeqoiMHcDEQy2A" sourceY="-25" targetX="-104" targetY="15"/>
+    <bendpoints xmi:id="_GQd0ARH1EeqoiMHcDEQy2A" sourceX="104" sourceY="-25" targetY="15"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_Fhf1MBH1EeqoiMHcDEQy2A" sourceAnchor="102.0,0.0" targetAnchor="61.0,58.0" enclosingItem="_FZJxgBH1EeqoiMHcDEQy2A" containedItem="_Fj4a4hH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FisIABH1EeqoiMHcDEQy2A" source="_Fj4a4hH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCfcIBH1EeqoiMHcDEQy2A"/>
+    <stereotypes xmi:id="_FisIARH1EeqoiMHcDEQy2A" name="Reference">
+      <modelElement href="gradeCalculator.uml#_DCfcIhH1EeqoiMHcDEQy2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_FisIAhH1EeqoiMHcDEQy2A" text=""/>
+    <sourceRole xmi:id="_FisIAxH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="">
+      <modelElement href="gradeCalculator.uml#_DCfcIRH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FisIBBH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FisIBRH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FisIBhH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="contentPane" navigable="true">
+      <modelElement href="gradeCalculator.uml#_DBTwYBH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FisIBxH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FisICBH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fi15ABH1EeqoiMHcDEQy2A" source="_Fj4a4hH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCfcIxH1EeqoiMHcDEQy2A"/>
+    <stereotypes xmi:id="_Fi15ARH1EeqoiMHcDEQy2A" name="Reference">
+      <modelElement href="gradeCalculator.uml#_DCpNIBH1EeqoiMHcDEQy2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fi15AhH1EeqoiMHcDEQy2A" text=""/>
+    <sourceRole xmi:id="_Fi15AxH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="">
+      <modelElement href="gradeCalculator.uml#_DCfcJBH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fi15BBH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fi15BRH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fi15BhH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="ptsMid" navigable="true">
+      <modelElement href="gradeCalculator.uml#_DBc6UBH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fi15BxH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fi15CBH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FjR94BH1EeqoiMHcDEQy2A" source="_Fj4a4hH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCpNIRH1EeqoiMHcDEQy2A"/>
+    <stereotypes xmi:id="_FjR94RH1EeqoiMHcDEQy2A" name="Reference">
+      <modelElement href="gradeCalculator.uml#_DCpNIxH1EeqoiMHcDEQy2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_FjR94hH1EeqoiMHcDEQy2A" text=""/>
+    <sourceRole xmi:id="_FjR94xH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="">
+      <modelElement href="gradeCalculator.uml#_DCpNIhH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FjR95BH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FjR95RH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FjR95hH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="ptsFinal" navigable="true">
+      <modelElement href="gradeCalculator.uml#_DBc6UhH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FjR95xH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FjR96BH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FjR96RH1EeqoiMHcDEQy2A" source="_Fj4a4hH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCpNJBH1EeqoiMHcDEQy2A"/>
+    <stereotypes xmi:id="_FjR96hH1EeqoiMHcDEQy2A" name="Reference">
+      <modelElement href="gradeCalculator.uml#_DCpNJhH1EeqoiMHcDEQy2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_FjR96xH1EeqoiMHcDEQy2A" text=""/>
+    <sourceRole xmi:id="_FjR97BH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="">
+      <modelElement href="gradeCalculator.uml#_DCpNJRH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FjR97RH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FjR97hH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FjR97xH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="lblAtten" navigable="true">
+      <modelElement href="gradeCalculator.uml#_DBc6VBH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FjR98BH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FjR98RH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FjR98hH1EeqoiMHcDEQy2A" source="_Fj4a4hH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCpNJxH1EeqoiMHcDEQy2A"/>
+    <stereotypes xmi:id="_FjR98xH1EeqoiMHcDEQy2A" name="Reference">
+      <modelElement href="gradeCalculator.uml#_DCpNKRH1EeqoiMHcDEQy2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_FjR99BH1EeqoiMHcDEQy2A" text=""/>
+    <sourceRole xmi:id="_FjR99RH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="">
+      <modelElement href="gradeCalculator.uml#_DCpNKBH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FjR99hH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FjR99xH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FjR9-BH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="ptsAtten" navigable="true">
+      <modelElement href="gradeCalculator.uml#_DBc6VhH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FjR9-RH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FjR9-hH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FjR9-xH1EeqoiMHcDEQy2A" source="_Fj4a4hH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCpNKhH1EeqoiMHcDEQy2A"/>
+    <stereotypes xmi:id="_FjR9_BH1EeqoiMHcDEQy2A" name="Reference">
+      <modelElement href="gradeCalculator.uml#_DCpNLBH1EeqoiMHcDEQy2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_FjR9_RH1EeqoiMHcDEQy2A" text=""/>
+    <sourceRole xmi:id="_FjR9_hH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="">
+      <modelElement href="gradeCalculator.uml#_DCpNKxH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FjR9_xH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FjR-ABH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FjR-ARH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="btnCalculateGrade" navigable="true">
+      <modelElement href="gradeCalculator.uml#_DBc6WBH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FjR-AhH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FjR-AxH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fjlf4BH1EeqoiMHcDEQy2A" source="_Fj4a4hH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCpNLRH1EeqoiMHcDEQy2A"/>
+    <stereotypes xmi:id="_Fjlf4RH1EeqoiMHcDEQy2A" name="Reference">
+      <modelElement href="gradeCalculator.uml#_DCy-IBH1EeqoiMHcDEQy2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fjlf4hH1EeqoiMHcDEQy2A" text=""/>
+    <sourceRole xmi:id="_Fjlf4xH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="">
+      <modelElement href="gradeCalculator.uml#_DCpNLhH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fjlf5BH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fjlf5RH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fjlf5hH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="btnPtsAssign" navigable="true">
+      <modelElement href="gradeCalculator.uml#_DBmrUBH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fjlf5xH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fjlf6BH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fjlf6RH1EeqoiMHcDEQy2A" source="_Fj4a4hH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCy-IRH1EeqoiMHcDEQy2A"/>
+    <stereotypes xmi:id="_Fjlf6hH1EeqoiMHcDEQy2A" name="Reference">
+      <modelElement href="gradeCalculator.uml#_DCy-IxH1EeqoiMHcDEQy2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fjlf6xH1EeqoiMHcDEQy2A" text=""/>
+    <sourceRole xmi:id="_Fjlf7BH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="">
+      <modelElement href="gradeCalculator.uml#_DCy-IhH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fjlf7RH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fjlf7hH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fjlf7xH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="btnPtsTeam" navigable="true">
+      <modelElement href="gradeCalculator.uml#_DBmrUhH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fjlf8BH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fjlf8RH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fjup0BH1EeqoiMHcDEQy2A" source="_Fj4a4hH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCy-JBH1EeqoiMHcDEQy2A"/>
+    <stereotypes xmi:id="_Fjup0RH1EeqoiMHcDEQy2A" name="Reference">
+      <modelElement href="gradeCalculator.uml#_DCy-JhH1EeqoiMHcDEQy2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fjup0hH1EeqoiMHcDEQy2A" text=""/>
+    <sourceRole xmi:id="_Fjup0xH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="">
+      <modelElement href="gradeCalculator.uml#_DCy-JRH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fjup1BH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fjup1RH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fjup1hH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="finalGrade" navigable="true">
+      <modelElement href="gradeCalculator.uml#_DBmrVBH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fjup1xH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fjup2BH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fjup2RH1EeqoiMHcDEQy2A" source="_Fj4a4hH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCy-JxH1EeqoiMHcDEQy2A"/>
+    <stereotypes xmi:id="_Fjup2hH1EeqoiMHcDEQy2A" name="Reference">
+      <modelElement href="gradeCalculator.uml#_DCy-KRH1EeqoiMHcDEQy2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fjup2xH1EeqoiMHcDEQy2A" text=""/>
+    <sourceRole xmi:id="_Fjup3BH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="">
+      <modelElement href="gradeCalculator.uml#_DCy-KBH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fjup3RH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fjup3hH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fjup3xH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="totalPtsAssign" navigable="true">
+      <modelElement href="gradeCalculator.uml#_DBmrVhH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fjup4BH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fjup4RH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fj4a0BH1EeqoiMHcDEQy2A" source="_Fj4a4hH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCy-KhH1EeqoiMHcDEQy2A"/>
+    <stereotypes xmi:id="_Fj4a0RH1EeqoiMHcDEQy2A" name="Reference">
+      <modelElement href="gradeCalculator.uml#_DCy-LBH1EeqoiMHcDEQy2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fj4a0hH1EeqoiMHcDEQy2A" text=""/>
+    <sourceRole xmi:id="_Fj4a0xH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="">
+      <modelElement href="gradeCalculator.uml#_DCy-KxH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fj4a1BH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4a1RH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fj4a1hH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="totalPtsProject" navigable="true">
+      <modelElement href="gradeCalculator.uml#_DBmrWBH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fj4a1xH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4a2BH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fj4a2RH1EeqoiMHcDEQy2A" source="_Fj4a4hH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCy-LRH1EeqoiMHcDEQy2A"/>
+    <stereotypes xmi:id="_Fj4a2hH1EeqoiMHcDEQy2A" name="Reference">
+      <modelElement href="gradeCalculator.uml#_DCy-LxH1EeqoiMHcDEQy2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fj4a2xH1EeqoiMHcDEQy2A" text=""/>
+    <sourceRole xmi:id="_Fj4a3BH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="">
+      <modelElement href="gradeCalculator.uml#_DCy-LhH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fj4a3RH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4a3hH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fj4a3xH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="btnClear" navigable="true">
+      <modelElement href="gradeCalculator.uml#_DBv1QRH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fj4a4BH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4a4RH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_FmtsYBH1EeqoiMHcDEQy2A" targetItem="_FmtsYRH1EeqoiMHcDEQy2A" sourceItem="_Fl-FgBH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_FndTQRH1EeqoiMHcDEQy2A" targetItem="_FnmdMBH1EeqoiMHcDEQy2A" sourceItem="_FndTQBH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_FnmdOhH1EeqoiMHcDEQy2A" targetItem="_FnwOMBH1EeqoiMHcDEQy2A" sourceItem="_FnmdORH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_FpsH4RH1EeqoiMHcDEQy2A" targetItem="_FvZuUBH1EeqoiMHcDEQy2A" sourceItem="_FpsH4BH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_Fp144BH1EeqoiMHcDEQy2A" sourceAnchor="110.0,0.0" targetAnchor="61.0,58.0" enclosingItem="_FZJxgBH1EeqoiMHcDEQy2A" containedItem="_FvZuUBH1EeqoiMHcDEQy2A">
+    <bendpoints xmi:id="_GQd0BBH1EeqoiMHcDEQy2A" sourceY="-22" targetX="234" targetY="36"/>
+    <bendpoints xmi:id="_GQd0BRH1EeqoiMHcDEQy2A" sourceX="-234" sourceY="-22" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fp144RH1EeqoiMHcDEQy2A" source="_FvZuUBH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCy-MBH1EeqoiMHcDEQy2A"/>
+    <stereotypes xmi:id="_Fp144hH1EeqoiMHcDEQy2A" name="Reference">
+      <modelElement href="gradeCalculator.uml#_DC8IEBH1EeqoiMHcDEQy2A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fp144xH1EeqoiMHcDEQy2A" text=""/>
+    <sourceRole xmi:id="_Fp145BH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="">
+      <modelElement href="gradeCalculator.uml#_DCy-MRH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fp145RH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fp145hH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fp145xH1EeqoiMHcDEQy2A" aggregationKind="NONE" name="window" navigable="true">
+      <modelElement href="gradeCalculator.uml#_DBv1QxH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fp146BH1EeqoiMHcDEQy2A" label="-"/>
+      <cardinality xmi:id="_Fp146RH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_Fx6PwBH1EeqoiMHcDEQy2A" sourceAnchor="47.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_FwXXoBH1EeqoiMHcDEQy2A" containedItem="_Fx6PwRH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_FyAWYBH1EeqoiMHcDEQy2A" sourceAnchor="47.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_Fx6PwRH1EeqoiMHcDEQy2A" containedItem="_FyAWYRH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_FyGdAhH1EeqoiMHcDEQy2A" sourceAnchor="47.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_FyGdABH1EeqoiMHcDEQy2A" containedItem="_FyLVgBH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_FyMjoBH1EeqoiMHcDEQy2A" sourceAnchor="47.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_FyLVgBH1EeqoiMHcDEQy2A" containedItem="_FyMjoRH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_Fy9_sBH1EeqoiMHcDEQy2A" sourceAnchor="47.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_FySqQBH1EeqoiMHcDEQy2A" containedItem="_Fznf8BH1EeqoiMHcDEQy2A">
+    <bendpoints xmi:id="_GQd0BhH1EeqoiMHcDEQy2A" sourceY="-36" targetX="-26" targetY="36"/>
+    <bendpoints xmi:id="_GQd0BxH1EeqoiMHcDEQy2A" sourceX="26" sourceY="-36" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_FzouEBH1EeqoiMHcDEQy2A" sourceAnchor="47.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_Fznf8BH1EeqoiMHcDEQy2A" containedItem="_FztmkBH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_Fzu0sBH1EeqoiMHcDEQy2A" sourceAnchor="47.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_FztmkBH1EeqoiMHcDEQy2A" containedItem="_Fzu0sRH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_Fz1iYBH1EeqoiMHcDEQy2A" sourceAnchor="47.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_FySqQBH1EeqoiMHcDEQy2A" containedItem="_Fz1iYRH1EeqoiMHcDEQy2A">
+    <bendpoints xmi:id="_GQnlABH1EeqoiMHcDEQy2A" sourceY="-36" targetX="91" targetY="36"/>
+    <bendpoints xmi:id="_GQnlARH1EeqoiMHcDEQy2A" sourceX="-91" sourceY="-36" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_Fz7pABH1EeqoiMHcDEQy2A" sourceAnchor="47.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_Fz1iYRH1EeqoiMHcDEQy2A" containedItem="_Fz7pARH1EeqoiMHcDEQy2A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ContainmentVisual" xmi:id="_F0BvoBH1EeqoiMHcDEQy2A" sourceAnchor="47.0,0.0" targetAnchor="47.0,58.0" enclosingItem="_Fz7pARH1EeqoiMHcDEQy2A" containedItem="_F0BvoRH1EeqoiMHcDEQy2A"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Fl-FgBH1EeqoiMHcDEQy2A" sourceConnectionVisual="_FmtsYBH1EeqoiMHcDEQy2A" text="Three classes below are event handlers for the buttons: &quot;Enter points&quot;, &quot;Calculate Grade&quot; and &quot;Clear&quot;&#xD;&#xA;&#x9;    * This is temporary, we have to spice things up" item="_FmtsYRH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCWSOxH1EeqoiMHcDEQy2A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_FndTQBH1EeqoiMHcDEQy2A" sourceConnectionVisual="_FndTQRH1EeqoiMHcDEQy2A" text=" @author Gurnit&#xD;&#xA;&#x9;&#x9; *Action event for Clear Button" item="_FnmdMBH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCWSPBH1EeqoiMHcDEQy2A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_FnmdORH1EeqoiMHcDEQy2A" sourceConnectionVisual="_FnmdOhH1EeqoiMHcDEQy2A" text="&#xD;&#xA;&#x9;&#x9; * pops up dialog box for students to enter points for Team Projects&#xD;&#xA;&#x9;&#x9; *  UPDATE: finished pop up  dialog , need to add weights to categories &#xD;&#xA;&#x9;&#x9; *" item="_FnwOMBH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCWSPRH1EeqoiMHcDEQy2A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_FpsH4BH1EeqoiMHcDEQy2A" sourceConnectionVisual="_FpsH4RH1EeqoiMHcDEQy2A" text="Unit test for simple App." item="_FvZuUBH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_DCWSPhH1EeqoiMHcDEQy2A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_FWLWABH1EeqoiMHcDEQy2A" name="gradeCalculator">
+    <modelElement href="gradeCalculator.uml#_B1VFcBH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FWLWARH1EeqoiMHcDEQy2A" position="324.0,1200.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_FZJxgBH1EeqoiMHcDEQy2A" containment="_FZAnkhH1EeqoiMHcDEQy2A" containments="_FaM6YBH1EeqoiMHcDEQy2A _Fhf1MBH1EeqoiMHcDEQy2A _Fp144BH1EeqoiMHcDEQy2A" classes="_FdeQ0BH1EeqoiMHcDEQy2A _Fj4a4hH1EeqoiMHcDEQy2A _FvZuUBH1EeqoiMHcDEQy2A" name="gradeCalculator">
+    <modelElement href="gradeCalculator.uml#_Cw6j8BH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FZJxgRH1EeqoiMHcDEQy2A" position="519.0,303.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_FmtsYRH1EeqoiMHcDEQy2A" comments="_Fl-FgBH1EeqoiMHcDEQy2A" targetConnectionVisual="_FmtsYBH1EeqoiMHcDEQy2A" name="CalcListener">
+    <modelElement href="gradeCalculator.uml#_CzJ_pBH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FmtsYhH1EeqoiMHcDEQy2A" position="341.0,890.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_FmtsYxH1EeqoiMHcDEQy2A" label="~"/>
+    <operations xmi:id="_FmtsZBH1EeqoiMHcDEQy2A" name="actionPerformed">
+      <modelElement href="gradeCalculator.uml#_DBAOYRH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FmtsZRH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FmtsZhH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_FmtsZxH1EeqoiMHcDEQy2A" name="e">
+        <modelElement href="gradeCalculator.uml#_DBAOYhH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_FmtsaBH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+        <type xmi:id="_FmtsaRH1EeqoiMHcDEQy2A" name="ActionEvent">
+          <modelElement href="gradeCalculator.uml#_C-xZxRH1EeqoiMHcDEQy2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_FnmdMBH1EeqoiMHcDEQy2A" comments="_FndTQBH1EeqoiMHcDEQy2A" targetConnectionVisual="_FndTQRH1EeqoiMHcDEQy2A" name="ClearListener">
+    <modelElement href="gradeCalculator.uml#_CzTJkBH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FnmdMRH1EeqoiMHcDEQy2A" position="640.0,890.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_FnmdMhH1EeqoiMHcDEQy2A" label="~"/>
+    <operations xmi:id="_FnmdMxH1EeqoiMHcDEQy2A" name="actionPerformed">
+      <modelElement href="gradeCalculator.uml#_DBJ_YRH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FnmdNBH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FnmdNRH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_FnmdNhH1EeqoiMHcDEQy2A" name="e">
+        <modelElement href="gradeCalculator.uml#_DBJ_YhH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_FnmdNxH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+        <type xmi:id="_FnmdOBH1EeqoiMHcDEQy2A" name="ActionEvent">
+          <modelElement href="gradeCalculator.uml#_C-xZxRH1EeqoiMHcDEQy2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_FnwOMBH1EeqoiMHcDEQy2A" comments="_FnmdORH1EeqoiMHcDEQy2A" targetConnectionVisual="_FnmdOhH1EeqoiMHcDEQy2A" name="AssPointsListener">
+    <modelElement href="gradeCalculator.uml#_CzTJkRH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FnwOMRH1EeqoiMHcDEQy2A" position="952.0,890.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_FnwOMhH1EeqoiMHcDEQy2A" label="~"/>
+    <operations xmi:id="_FnwOMxH1EeqoiMHcDEQy2A" name="actionPerformed">
+      <modelElement href="gradeCalculator.uml#_DBJ_ZBH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FnwONBH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FnwONRH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_FnwONhH1EeqoiMHcDEQy2A" name="e">
+        <modelElement href="gradeCalculator.uml#_DBJ_ZRH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_FnwONxH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+        <type xmi:id="_FnwOOBH1EeqoiMHcDEQy2A" name="ActionEvent">
+          <modelElement href="gradeCalculator.uml#_C-xZxRH1EeqoiMHcDEQy2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_FopmEBH1EeqoiMHcDEQy2A" name="TeamPointsListener">
+    <modelElement href="gradeCalculator.uml#_Czc6kBH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FopmERH1EeqoiMHcDEQy2A" position="16.0,1202.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_FopmEhH1EeqoiMHcDEQy2A" label="~"/>
+    <operations xmi:id="_FopmExH1EeqoiMHcDEQy2A" name="actionPerformed">
+      <modelElement href="gradeCalculator.uml#_DBJ_ZxH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FopmFBH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FopmFRH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_FopmFhH1EeqoiMHcDEQy2A" name="e">
+        <modelElement href="gradeCalculator.uml#_DBJ_aBH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_FopmFxH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+        <type xmi:id="_FopmGBH1EeqoiMHcDEQy2A" name="ActionEvent">
+          <modelElement href="gradeCalculator.uml#_C-xZxRH1EeqoiMHcDEQy2A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_FvZuUBH1EeqoiMHcDEQy2A" comments="_FpsH4BH1EeqoiMHcDEQy2A" targetConnectionVisual="_FpsH4RH1EeqoiMHcDEQy2A" containment="_Fp144BH1EeqoiMHcDEQy2A" name="AppTest" package="_FZJxgBH1EeqoiMHcDEQy2A" associationsOut="_Fp144RH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_C0MhcBH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FvZuURH1EeqoiMHcDEQy2A" position="704.0,419.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_FvZuUhH1EeqoiMHcDEQy2A" label="+"/>
+    <attributes xmi:id="_FvZuUxH1EeqoiMHcDEQy2A" name="window">
+      <modelElement href="gradeCalculator.uml#_DBv1QxH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_FvZuVBH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_DBv1RBH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_FvZuVRH1EeqoiMHcDEQy2A" label="-"/>
+      <cardinality xmi:id="_FvZuVhH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <type xmi:id="_FvZuVxH1EeqoiMHcDEQy2A" name="FrameFixture">
+        <modelElement href="gradeCalculator.uml#_C_qxoxH1EeqoiMHcDEQy2A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_FvZuWBH1EeqoiMHcDEQy2A" name="setUp">
+      <modelElement href="gradeCalculator.uml#_C0WScBH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_FvZuWRH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_C0WScRH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FvZuWhH1EeqoiMHcDEQy2A" name="Annotations">
+        <modelElement href="gradeCalculator.uml#_C0WSchH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_FvZuWxH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FvZuXBH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_FvZuXRH1EeqoiMHcDEQy2A" name="appTest">
+      <modelElement href="gradeCalculator.uml#_C0WSdBH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_FvZuXhH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_C0WSdRH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FvZuXxH1EeqoiMHcDEQy2A" name="Annotations">
+        <modelElement href="gradeCalculator.uml#_C0WSdhH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_FvZuYBH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FvZuYRH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_FvZuYhH1EeqoiMHcDEQy2A" name="shouldAnswerWithTrue">
+      <modelElement href="gradeCalculator.uml#_C0WSeBH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_FvZuYxH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_C0fcYBH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FvZuZBH1EeqoiMHcDEQy2A" name="Annotations">
+        <modelElement href="gradeCalculator.uml#_C0fcYRH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_FvZuZRH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FvZuZhH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_FvZuZxH1EeqoiMHcDEQy2A" name="appTest1">
+      <modelElement href="gradeCalculator.uml#_C0fcYxH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_FvZuaBH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_C0fcZBH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FvZuaRH1EeqoiMHcDEQy2A" name="Annotations">
+        <modelElement href="gradeCalculator.uml#_C0fcZRH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_FvZuahH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_FvZuaxH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_FwXXoBH1EeqoiMHcDEQy2A" containments="_Fx6PwBH1EeqoiMHcDEQy2A" name="java">
+    <modelElement href="gradeCalculator.uml#_Cw6j8RH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FwXXoRH1EeqoiMHcDEQy2A" position="13.0,888.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_Fx6PwRH1EeqoiMHcDEQy2A" containment="_Fx6PwBH1EeqoiMHcDEQy2A" containments="_FyAWYBH1EeqoiMHcDEQy2A" name="awt">
+    <modelElement href="gradeCalculator.uml#_Cw6j8hH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_Fx6PwhH1EeqoiMHcDEQy2A" position="13.0,979.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_FyAWYRH1EeqoiMHcDEQy2A" containment="_FyAWYBH1EeqoiMHcDEQy2A" name="event">
+    <modelElement href="gradeCalculator.uml#_Cw6j9hH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FyAWYhH1EeqoiMHcDEQy2A" position="13.0,1070.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_FyGdABH1EeqoiMHcDEQy2A" containments="_FyGdAhH1EeqoiMHcDEQy2A" name="javax">
+    <modelElement href="gradeCalculator.uml#_Cw6j8xH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FyGdARH1EeqoiMHcDEQy2A" position="182.0,888.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_FyLVgBH1EeqoiMHcDEQy2A" containment="_FyGdAhH1EeqoiMHcDEQy2A" containments="_FyMjoBH1EeqoiMHcDEQy2A" name="swing">
+    <modelElement href="gradeCalculator.uml#_Cw6j9BH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FyLVgRH1EeqoiMHcDEQy2A" position="182.0,979.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_FyMjoRH1EeqoiMHcDEQy2A" containment="_FyMjoBH1EeqoiMHcDEQy2A" name="border">
+    <modelElement href="gradeCalculator.uml#_Cw6j9RH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FyMjohH1EeqoiMHcDEQy2A" position="182.0,1070.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_FztmkBH1EeqoiMHcDEQy2A" containment="_FzouEBH1EeqoiMHcDEQy2A" containments="_Fzu0sBH1EeqoiMHcDEQy2A" name="jupiter">
+    <modelElement href="gradeCalculator.uml#_Cx9s0hH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FztmkRH1EeqoiMHcDEQy2A" position="1001.0,251.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_Fzu0sRH1EeqoiMHcDEQy2A" containment="_Fzu0sBH1EeqoiMHcDEQy2A" name="api">
+    <modelElement href="gradeCalculator.uml#_Cx9s0xH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_Fzu0shH1EeqoiMHcDEQy2A" position="1001.0,342.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_Fz1iYRH1EeqoiMHcDEQy2A" containment="_Fz1iYBH1EeqoiMHcDEQy2A" containments="_Fz7pABH1EeqoiMHcDEQy2A" name="assertj">
+    <modelElement href="gradeCalculator.uml#_Cx9s1BH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_Fz1iYhH1EeqoiMHcDEQy2A" position="1118.0,160.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_Fz7pARH1EeqoiMHcDEQy2A" containment="_Fz7pABH1EeqoiMHcDEQy2A" containments="_F0BvoBH1EeqoiMHcDEQy2A" name="swing">
+    <modelElement href="gradeCalculator.uml#_Cx9s1RH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_Fz7pAhH1EeqoiMHcDEQy2A" position="1118.0,251.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_F0BvoRH1EeqoiMHcDEQy2A" containment="_F0BvoBH1EeqoiMHcDEQy2A" name="fixture">
+    <modelElement href="gradeCalculator.uml#_Cx9s1hH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_F0BvohH1EeqoiMHcDEQy2A" position="1118.0,342.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_Fznf8BH1EeqoiMHcDEQy2A" containment="_Fy9_sBH1EeqoiMHcDEQy2A" containments="_FzouEBH1EeqoiMHcDEQy2A" name="junit">
+    <modelElement href="gradeCalculator.uml#_Cx9s0RH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_Fznf8RH1EeqoiMHcDEQy2A" position="1001.0,160.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_FySqQBH1EeqoiMHcDEQy2A" containments="_Fy9_sBH1EeqoiMHcDEQy2A _Fz1iYBH1EeqoiMHcDEQy2A" name="org">
+    <modelElement href="gradeCalculator.uml#_Cx9s0BH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FySqQRH1EeqoiMHcDEQy2A" position="1027.0,30.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_FdeQ0BH1EeqoiMHcDEQy2A" containment="_FaM6YBH1EeqoiMHcDEQy2A" name="calculate" package="_FZJxgBH1EeqoiMHcDEQy2A" generalizations="_FgdTYBH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_CyaYwBH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FdeQ0RH1EeqoiMHcDEQy2A" position="11.0,773.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_FdeQ0hH1EeqoiMHcDEQy2A" label="+"/>
+    <operations xmi:id="_FdeQ0xH1EeqoiMHcDEQy2A" name="calculateGrade" staticOperation="true">
+      <modelElement href="gradeCalculator.uml#_CytTuRH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_FdeQ1BH1EeqoiMHcDEQy2A" label="~"/>
+      <cardinality xmi:id="_FdeQ1RH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FdeQ1hH1EeqoiMHcDEQy2A">
+        <modelElement href="gradeCalculator.uml#_Cy2dqRH1EeqoiMHcDEQy2A"/>
+        <type xmi:id="_FdeQ1xH1EeqoiMHcDEQy2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FdeQ2BH1EeqoiMHcDEQy2A" name="nt1">
+        <modelElement href="gradeCalculator.uml#_CytTuhH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_FdeQ2RH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+        <type xmi:id="_FdeQ2hH1EeqoiMHcDEQy2A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_FdeQ2xH1EeqoiMHcDEQy2A" name="dt1">
+        <modelElement href="gradeCalculator.uml#_Cy2doBH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_FdeQ3BH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+        <type xmi:id="_FdeQ3RH1EeqoiMHcDEQy2A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_FdeQ3hH1EeqoiMHcDEQy2A" name="nt2">
+        <modelElement href="gradeCalculator.uml#_Cy2doRH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_FdeQ3xH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+        <type xmi:id="_FdeQ4BH1EeqoiMHcDEQy2A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_FdeQ4RH1EeqoiMHcDEQy2A" name="dt2">
+        <modelElement href="gradeCalculator.uml#_Cy2dohH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_FdeQ4hH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+        <type xmi:id="_FdeQ4xH1EeqoiMHcDEQy2A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_FdeQ5BH1EeqoiMHcDEQy2A" name="nt3">
+        <modelElement href="gradeCalculator.uml#_Cy2doxH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_FdeQ5RH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+        <type xmi:id="_FdeQ5hH1EeqoiMHcDEQy2A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_FdeQ5xH1EeqoiMHcDEQy2A" name="dt3">
+        <modelElement href="gradeCalculator.uml#_Cy2dpBH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_FdeQ6BH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+        <type xmi:id="_FdeQ6RH1EeqoiMHcDEQy2A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_FdeQ6hH1EeqoiMHcDEQy2A" name="nt4">
+        <modelElement href="gradeCalculator.uml#_Cy2dpRH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_FdeQ6xH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+        <type xmi:id="_FdeQ7BH1EeqoiMHcDEQy2A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_FdeQ7RH1EeqoiMHcDEQy2A" name="dt4">
+        <modelElement href="gradeCalculator.uml#_Cy2dphH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_FdeQ7hH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+        <type xmi:id="_FdeQ7xH1EeqoiMHcDEQy2A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_FdeQ8BH1EeqoiMHcDEQy2A" name="nt5">
+        <modelElement href="gradeCalculator.uml#_Cy2dpxH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_FdeQ8RH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+        <type xmi:id="_FdeQ8hH1EeqoiMHcDEQy2A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_FdeQ8xH1EeqoiMHcDEQy2A" name="dt5">
+        <modelElement href="gradeCalculator.uml#_Cy2dqBH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_FdeQ9BH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+        <type xmi:id="_FdeQ9RH1EeqoiMHcDEQy2A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_FWxL4BH1EeqoiMHcDEQy2A" containments="_FXN30BH1EeqoiMHcDEQy2A" name="edu">
+    <modelElement href="gradeCalculator.uml#_CwUuEBH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FWxL4RH1EeqoiMHcDEQy2A" position="533.0,30.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_FXXo0BH1EeqoiMHcDEQy2A" containment="_FXN30BH1EeqoiMHcDEQy2A" containments="_FYRAsBH1EeqoiMHcDEQy2A" name="csus">
+    <modelElement href="gradeCalculator.uml#_CwUuERH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FXXo0RH1EeqoiMHcDEQy2A" position="533.0,121.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_FZAnkBH1EeqoiMHcDEQy2A" containment="_FYRAsBH1EeqoiMHcDEQy2A" containments="_FZAnkhH1EeqoiMHcDEQy2A" name="csc131">
+    <modelElement href="gradeCalculator.uml#_CwUuEhH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_FZAnkRH1EeqoiMHcDEQy2A" position="533.0,212.0" size="-1.0,-1.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Fj4a4hH1EeqoiMHcDEQy2A" containment="_Fhf1MBH1EeqoiMHcDEQy2A" name="App" package="_FZJxgBH1EeqoiMHcDEQy2A" associationsOut="_FisIABH1EeqoiMHcDEQy2A _Fi15ABH1EeqoiMHcDEQy2A _FjR94BH1EeqoiMHcDEQy2A _FjR96RH1EeqoiMHcDEQy2A _FjR98hH1EeqoiMHcDEQy2A _FjR9-xH1EeqoiMHcDEQy2A _Fjlf4BH1EeqoiMHcDEQy2A _Fjlf6RH1EeqoiMHcDEQy2A _Fjup0BH1EeqoiMHcDEQy2A _Fjup2RH1EeqoiMHcDEQy2A _Fj4a0BH1EeqoiMHcDEQy2A _Fj4a2RH1EeqoiMHcDEQy2A" subclassedBy="_FgdTYBH1EeqoiMHcDEQy2A">
+    <modelElement href="gradeCalculator.uml#_CzAOoBH1EeqoiMHcDEQy2A"/>
+    <visualProperties xmi:id="_Fj4a4xH1EeqoiMHcDEQy2A" position="478.0,425.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Fj4a5BH1EeqoiMHcDEQy2A" label="+"/>
+    <attributes xmi:id="_Fj4a5RH1EeqoiMHcDEQy2A" name="contentPane">
+      <modelElement href="gradeCalculator.uml#_DBTwYBH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_Fj4a5hH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_DBTwYRH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Fj4a5xH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4a6BH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Fj4a6RH1EeqoiMHcDEQy2A" name="JPanel">
+        <modelElement href="gradeCalculator.uml#_C-By4RH1EeqoiMHcDEQy2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fj4a6hH1EeqoiMHcDEQy2A" name="ptsMid">
+      <modelElement href="gradeCalculator.uml#_DBc6UBH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_Fj4a6xH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_DBc6URH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Fj4a7BH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4a7RH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Fj4a7hH1EeqoiMHcDEQy2A" name="JTextField">
+        <modelElement href="gradeCalculator.uml#_C-ee1RH1EeqoiMHcDEQy2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fj4a7xH1EeqoiMHcDEQy2A" name="ptsFinal">
+      <modelElement href="gradeCalculator.uml#_DBc6UhH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_Fj4a8BH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_DBc6UxH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Fj4a8RH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4a8hH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Fj4a8xH1EeqoiMHcDEQy2A" name="JTextField">
+        <modelElement href="gradeCalculator.uml#_C-ee1RH1EeqoiMHcDEQy2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fj4a9BH1EeqoiMHcDEQy2A" name="lblAtten">
+      <modelElement href="gradeCalculator.uml#_DBc6VBH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_Fj4a9RH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_DBc6VRH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Fj4a9hH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4a9xH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Fj4a-BH1EeqoiMHcDEQy2A" name="JLabel">
+        <modelElement href="gradeCalculator.uml#_C-Ut0BH1EeqoiMHcDEQy2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fj4a-RH1EeqoiMHcDEQy2A" name="ptsAtten">
+      <modelElement href="gradeCalculator.uml#_DBc6VhH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_Fj4a-hH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_DBc6VxH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Fj4a-xH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4a_BH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Fj4a_RH1EeqoiMHcDEQy2A" name="JTextField">
+        <modelElement href="gradeCalculator.uml#_C-ee1RH1EeqoiMHcDEQy2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fj4a_hH1EeqoiMHcDEQy2A" name="btnCalculateGrade">
+      <modelElement href="gradeCalculator.uml#_DBc6WBH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_Fj4a_xH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_DBc6WRH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Fj4bABH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4bARH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Fj4bAhH1EeqoiMHcDEQy2A" name="JButton">
+        <modelElement href="gradeCalculator.uml#_C-noxRH1EeqoiMHcDEQy2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fj4bAxH1EeqoiMHcDEQy2A" name="btnPtsAssign">
+      <modelElement href="gradeCalculator.uml#_DBmrUBH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_Fj4bBBH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_DBmrURH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Fj4bBRH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4bBhH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Fj4bBxH1EeqoiMHcDEQy2A" name="JButton">
+        <modelElement href="gradeCalculator.uml#_C-noxRH1EeqoiMHcDEQy2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fj4bCBH1EeqoiMHcDEQy2A" name="btnPtsTeam">
+      <modelElement href="gradeCalculator.uml#_DBmrUhH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_Fj4bCRH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_DBmrUxH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Fj4bChH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4bCxH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Fj4bDBH1EeqoiMHcDEQy2A" name="JButton">
+        <modelElement href="gradeCalculator.uml#_C-noxRH1EeqoiMHcDEQy2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fj4bDRH1EeqoiMHcDEQy2A" name="finalGrade" staticAttribute="true">
+      <modelElement href="gradeCalculator.uml#_DBmrVBH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_Fj4bDhH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_DBmrVRH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Fj4bDxH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4bEBH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Fj4bERH1EeqoiMHcDEQy2A" name="JTextField">
+        <modelElement href="gradeCalculator.uml#_C-ee1RH1EeqoiMHcDEQy2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fj4bEhH1EeqoiMHcDEQy2A" name="totalPtsAssign">
+      <modelElement href="gradeCalculator.uml#_DBmrVhH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_Fj4bExH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_DBmrVxH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Fj4bFBH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4bFRH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Fj4bFhH1EeqoiMHcDEQy2A" name="JTextField">
+        <modelElement href="gradeCalculator.uml#_C-ee1RH1EeqoiMHcDEQy2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fj4bFxH1EeqoiMHcDEQy2A" name="totalPtsProject">
+      <modelElement href="gradeCalculator.uml#_DBmrWBH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_Fj4bGBH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_DBv1QBH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Fj4bGRH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4bGhH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Fj4bGxH1EeqoiMHcDEQy2A" name="JTextField">
+        <modelElement href="gradeCalculator.uml#_C-ee1RH1EeqoiMHcDEQy2A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fj4bHBH1EeqoiMHcDEQy2A" name="btnClear">
+      <modelElement href="gradeCalculator.uml#_DBv1QRH1EeqoiMHcDEQy2A"/>
+      <stereotypes xmi:id="_Fj4bHRH1EeqoiMHcDEQy2A" name="LegacyStyledElement">
+        <modelElement href="gradeCalculator.uml#_DBv1QhH1EeqoiMHcDEQy2A"/>
+      </stereotypes>
+      <visibility xmi:id="_Fj4bHhH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4bHxH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <type xmi:id="_Fj4bIBH1EeqoiMHcDEQy2A" name="JButton">
+        <modelElement href="gradeCalculator.uml#_C-noxRH1EeqoiMHcDEQy2A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Fj4bIRH1EeqoiMHcDEQy2A" name="main" staticOperation="true">
+      <modelElement href="gradeCalculator.uml#_CzJ_oBH1EeqoiMHcDEQy2A"/>
+      <visibility xmi:id="_Fj4bIhH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4bIxH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Fj4bJBH1EeqoiMHcDEQy2A" name="args">
+        <modelElement href="gradeCalculator.uml#_CzJ_oRH1EeqoiMHcDEQy2A"/>
+        <cardinality xmi:id="_Fj4bJRH1EeqoiMHcDEQy2A" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Fj4bJhH1EeqoiMHcDEQy2A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Fj4bJxH1EeqoiMHcDEQy2A" name="App">
+      <modelElement href="gradeCalculator.uml#_CzmEgBH1EeqoiMHcDEQy2A"/>
+      <keywords xmi:id="_Fj4bKBH1EeqoiMHcDEQy2A" keyword="create"/>
+      <visibility xmi:id="_Fj4bKRH1EeqoiMHcDEQy2A" label="+"/>
+      <cardinality xmi:id="_Fj4bKhH1EeqoiMHcDEQy2A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Fj4bKxH1EeqoiMHcDEQy2A">
+        <modelElement href="gradeCalculator.uml#_CzmEgxH1EeqoiMHcDEQy2A"/>
+        <type xmi:id="_Fj4bLBH1EeqoiMHcDEQy2A" name="App">
+          <modelElement href="gradeCalculator.uml#_CzAOoBH1EeqoiMHcDEQy2A"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

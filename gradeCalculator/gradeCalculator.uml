@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_B1VFcBH1EeqoiMHcDEQy2A" name="gradeCalculator">
+    <eAnnotations xmi:id="_CFRl8BH1EeqoiMHcDEQy2A" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_CFRl8RH1EeqoiMHcDEQy2A" source="codegen">
+        <details xmi:id="_CFRl8hH1EeqoiMHcDEQy2A" key="codegenDirectory" value="/gradeCalculator/src/main/java"/>
+        <details xmi:id="_Dc3D8BH1EeqoiMHcDEQy2A" key="AssociatedSourceCode" value="/gradeCalculator/src/main/java/edu/csus/csc131/gradeCalculator/calculate.java;12039611/1;/gradeCalculator/src/main/java/edu/csus/csc131/gradeCalculator/App.java;3715496377/1;/gradeCalculator/src/test/java/edu/csus/csc131/gradeCalculator/AppTest.java;3954851824/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_CytTsBH1EeqoiMHcDEQy2A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_CytTsRH1EeqoiMHcDEQy2A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_CytTshH1EeqoiMHcDEQy2A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_CytTsxH1EeqoiMHcDEQy2A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_CytTtBH1EeqoiMHcDEQy2A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_CytTtRH1EeqoiMHcDEQy2A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_CytTthH1EeqoiMHcDEQy2A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_CytTtxH1EeqoiMHcDEQy2A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_CytTuBH1EeqoiMHcDEQy2A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_CwUuEBH1EeqoiMHcDEQy2A" name="edu">
+      <packagedElement xmi:type="uml:Package" xmi:id="_CwUuERH1EeqoiMHcDEQy2A" name="csus">
+        <packagedElement xmi:type="uml:Package" xmi:id="_CwUuEhH1EeqoiMHcDEQy2A" name="csc131">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Cw6j8BH1EeqoiMHcDEQy2A" name="gradeCalculator">
+            <packagedElement xmi:type="uml:Class" xmi:id="_CyaYwBH1EeqoiMHcDEQy2A" name="calculate">
+              <generalization xmi:id="_C9bV8BH1EeqoiMHcDEQy2A" general="_CzAOoBH1EeqoiMHcDEQy2A"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DCDXQBH1EeqoiMHcDEQy2A" name="calculateGrade" specification="_CytTuRH1EeqoiMHcDEQy2A">
+                <ownedParameter xmi:id="_DCDXQRH1EeqoiMHcDEQy2A" name="nt1">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_DCDXQhH1EeqoiMHcDEQy2A" name="dt1">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_DCDXQxH1EeqoiMHcDEQy2A" name="nt2">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_DCDXRBH1EeqoiMHcDEQy2A" name="dt2">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_DCDXRRH1EeqoiMHcDEQy2A" name="nt3">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_DCDXRhH1EeqoiMHcDEQy2A" name="dt3">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_DCDXRxH1EeqoiMHcDEQy2A" name="nt4">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_DCDXSBH1EeqoiMHcDEQy2A" name="dt4">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_DCDXSRH1EeqoiMHcDEQy2A" name="nt5">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_DCDXShH1EeqoiMHcDEQy2A" name="dt5">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_DCDXSxH1EeqoiMHcDEQy2A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>double grade = ((nt1 / dt1)*(0.01) + (nt2 /dt2 )*(.19) + (nt3/ dt3)*(.25) + (nt4 / dt4)*(.25) + (nt5 / dt5)*(.30))  * 100; &#xD;
+		&#xD;
+		String g = &quot;&quot;;&#xD;
+		 if (grade &lt;= 100 &amp;&amp; grade >= 95) {&#xD;
+	         g = &quot;A&quot;;&#xD;
+	    }&#xD;
+	    else if (grade &lt;= 94 &amp;&amp; grade >= 90) {&#xD;
+	         g = &quot;A-&quot;;&#xD;
+	    }&#xD;
+	    else if (grade &lt;= 89 &amp;&amp; grade >= 86) {&#xD;
+	         g = &quot;B+&quot;;&#xD;
+	    }&#xD;
+	    else if (grade &lt;= 85 &amp;&amp; grade >= 82) {&#xD;
+	         g = &quot;B&quot;;&#xD;
+	    }&#xD;
+	    else if (grade &lt;= 81 &amp;&amp; grade >= 80) {&#xD;
+	         g = &quot;B-&quot;;&#xD;
+	    }&#xD;
+	    else if (grade &lt;= 79 &amp;&amp; grade >= 76) {&#xD;
+	         g = &quot;C+&quot;;&#xD;
+	    }&#xD;
+	    else if (grade &lt;= 75 &amp;&amp; grade >= 72) {&#xD;
+	         g = &quot;C&quot;;&#xD;
+	    }&#xD;
+	    else if (grade &lt;= 71 &amp;&amp; grade >= 70) {&#xD;
+	         g = &quot;C-&quot;;&#xD;
+	    }&#xD;
+	    else if (grade &lt;= 69 &amp;&amp; grade >= 66) {&#xD;
+	         g = &quot;D+&quot;;&#xD;
+	    }&#xD;
+	    else if (grade &lt;= 65 &amp;&amp; grade >= 63) {&#xD;
+	         g = &quot;D&quot;;&#xD;
+	    }&#xD;
+	    else {&#xD;
+	    	g = &quot;F&quot;;&#xD;
+	    }&#xD;
+		 return g;&#xD;
+		 &#xD;
+	 &#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_CytTuRH1EeqoiMHcDEQy2A" name="calculateGrade" visibility="package" isStatic="true" method="_DCDXQBH1EeqoiMHcDEQy2A">
+                <ownedParameter xmi:id="_CytTuhH1EeqoiMHcDEQy2A" name="nt1">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Cy2doBH1EeqoiMHcDEQy2A" name="dt1">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Cy2doRH1EeqoiMHcDEQy2A" name="nt2">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Cy2dohH1EeqoiMHcDEQy2A" name="dt2">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Cy2doxH1EeqoiMHcDEQy2A" name="nt3">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Cy2dpBH1EeqoiMHcDEQy2A" name="dt3">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Cy2dpRH1EeqoiMHcDEQy2A" name="nt4">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Cy2dphH1EeqoiMHcDEQy2A" name="dt4">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Cy2dpxH1EeqoiMHcDEQy2A" name="nt5">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Cy2dqBH1EeqoiMHcDEQy2A" name="dt5">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Cy2dqRH1EeqoiMHcDEQy2A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_CzAOoBH1EeqoiMHcDEQy2A" name="App">
+              <generalization xmi:id="_DBJ_aRH1EeqoiMHcDEQy2A" general="_C94B5RH1EeqoiMHcDEQy2A"/>
+              <ownedAttribute xmi:id="_DBTwYBH1EeqoiMHcDEQy2A" name="contentPane" type="_C-By4RH1EeqoiMHcDEQy2A" association="_DCfcIBH1EeqoiMHcDEQy2A"/>
+              <ownedAttribute xmi:id="_DBc6UBH1EeqoiMHcDEQy2A" name="ptsMid" type="_C-ee1RH1EeqoiMHcDEQy2A" association="_DCfcIxH1EeqoiMHcDEQy2A"/>
+              <ownedAttribute xmi:id="_DBc6UhH1EeqoiMHcDEQy2A" name="ptsFinal" type="_C-ee1RH1EeqoiMHcDEQy2A" association="_DCpNIRH1EeqoiMHcDEQy2A"/>
+              <ownedAttribute xmi:id="_DBc6VBH1EeqoiMHcDEQy2A" name="lblAtten" type="_C-Ut0BH1EeqoiMHcDEQy2A" association="_DCpNJBH1EeqoiMHcDEQy2A"/>
+              <ownedAttribute xmi:id="_DBc6VhH1EeqoiMHcDEQy2A" name="ptsAtten" type="_C-ee1RH1EeqoiMHcDEQy2A" association="_DCpNJxH1EeqoiMHcDEQy2A"/>
+              <ownedAttribute xmi:id="_DBc6WBH1EeqoiMHcDEQy2A" name="btnCalculateGrade" type="_C-noxRH1EeqoiMHcDEQy2A" association="_DCpNKhH1EeqoiMHcDEQy2A"/>
+              <ownedAttribute xmi:id="_DBmrUBH1EeqoiMHcDEQy2A" name="btnPtsAssign" type="_C-noxRH1EeqoiMHcDEQy2A" association="_DCpNLRH1EeqoiMHcDEQy2A"/>
+              <ownedAttribute xmi:id="_DBmrUhH1EeqoiMHcDEQy2A" name="btnPtsTeam" type="_C-noxRH1EeqoiMHcDEQy2A" association="_DCy-IRH1EeqoiMHcDEQy2A"/>
+              <ownedAttribute xmi:id="_DBmrVBH1EeqoiMHcDEQy2A" name="finalGrade" isStatic="true" type="_C-ee1RH1EeqoiMHcDEQy2A" association="_DCy-JBH1EeqoiMHcDEQy2A"/>
+              <ownedAttribute xmi:id="_DBmrVhH1EeqoiMHcDEQy2A" name="totalPtsAssign" type="_C-ee1RH1EeqoiMHcDEQy2A" association="_DCy-JxH1EeqoiMHcDEQy2A"/>
+              <ownedAttribute xmi:id="_DBmrWBH1EeqoiMHcDEQy2A" name="totalPtsProject" type="_C-ee1RH1EeqoiMHcDEQy2A" association="_DCy-KhH1EeqoiMHcDEQy2A"/>
+              <ownedAttribute xmi:id="_DBv1QRH1EeqoiMHcDEQy2A" name="btnClear" type="_C-noxRH1EeqoiMHcDEQy2A" association="_DCy-LRH1EeqoiMHcDEQy2A"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DCMhMBH1EeqoiMHcDEQy2A" name="main" specification="_CzJ_oBH1EeqoiMHcDEQy2A">
+                <ownedParameter xmi:id="_DCMhMRH1EeqoiMHcDEQy2A" name="args">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DCMhMhH1EeqoiMHcDEQy2A" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>EventQueue.invokeLater(new Runnable() {&#xD;
+			public void run() {&#xD;
+				try {&#xD;
+					App frame = new App();&#xD;
+					frame.setVisible(true);&#xD;
+				} catch (Exception e) {&#xD;
+					e.printStackTrace();&#xD;
+				}&#xD;
+			}&#xD;
+		});&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DCWSNhH1EeqoiMHcDEQy2A" name="App" specification="_CzmEgBH1EeqoiMHcDEQy2A">
+                <ownedParameter xmi:id="_DCWSNxH1EeqoiMHcDEQy2A" type="_CzAOoBH1EeqoiMHcDEQy2A" direction="return"/>
+                <language>java</language>
+                <body>setTitle(&quot;Grade Calculator&quot;);&#xD;
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+		setBounds(100, 100, 394, 327);&#xD;
+		contentPane = new JPanel();&#xD;
+		contentPane.setForeground(Color.WHITE);&#xD;
+		contentPane.setBackground(new Color(204, 204, 255));&#xD;
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));&#xD;
+		setContentPane(contentPane);&#xD;
+		GridBagLayout gbl_contentPane = new GridBagLayout();&#xD;
+		gbl_contentPane.columnWidths = new int[]{0, 66, 0, 4, 64, 24, 30, 0, 0, 16, 0};&#xD;
+		gbl_contentPane.rowHeights = new int[]{20, 38, 38, 38, 38, 40, 35, -11, 0};&#xD;
+		gbl_contentPane.columnWeights = new double[]{0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0, Double.MIN_VALUE};&#xD;
+		gbl_contentPane.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};&#xD;
+		contentPane.setLayout(gbl_contentPane);&#xD;
+		&#xD;
+		lblAtten = new JLabel(&quot;Attendance&quot;);&#xD;
+		GridBagConstraints gbc_lblAtten = new GridBagConstraints();&#xD;
+		gbc_lblAtten.anchor = GridBagConstraints.EAST;&#xD;
+		gbc_lblAtten.insets = new Insets(0, 0, 5, 5);&#xD;
+		gbc_lblAtten.gridx = 0;&#xD;
+		gbc_lblAtten.gridy = 1;&#xD;
+		contentPane.add(lblAtten, gbc_lblAtten);&#xD;
+		&#xD;
+		ptsAtten = new JTextField();&#xD;
+		GridBagConstraints gbc_ptsAtten = new GridBagConstraints();&#xD;
+		gbc_ptsAtten.gridwidth = 2;&#xD;
+		gbc_ptsAtten.insets = new Insets(0, 0, 5, 5);&#xD;
+		gbc_ptsAtten.fill = GridBagConstraints.BOTH;&#xD;
+		gbc_ptsAtten.gridx = 1;&#xD;
+		gbc_ptsAtten.gridy = 1;&#xD;
+		contentPane.add(ptsAtten, gbc_ptsAtten);&#xD;
+		ptsAtten.setColumns(10);&#xD;
+&#xD;
+		JLabel lblMidterm = new JLabel(&quot;Midterm&quot;);&#xD;
+		GridBagConstraints gbc_lblMidterm = new GridBagConstraints();&#xD;
+		gbc_lblMidterm.insets = new Insets(0, 0, 5, 5);&#xD;
+		gbc_lblMidterm.gridx = 0;&#xD;
+		gbc_lblMidterm.gridy = 2;&#xD;
+		contentPane.add(lblMidterm, gbc_lblMidterm);&#xD;
+		&#xD;
+		ptsMid = new JTextField();&#xD;
+		GridBagConstraints gbc_ptsMid = new GridBagConstraints();&#xD;
+		gbc_ptsMid.gridwidth = 2;&#xD;
+		gbc_ptsMid.insets = new Insets(0, 0, 5, 5);&#xD;
+		gbc_ptsMid.fill = GridBagConstraints.BOTH;&#xD;
+		gbc_ptsMid.gridx = 1;&#xD;
+		gbc_ptsMid.gridy = 2;&#xD;
+		contentPane.add(ptsMid, gbc_ptsMid);&#xD;
+		ptsMid.setColumns(10);&#xD;
+		&#xD;
+&#xD;
+		&#xD;
+		JLabel lblFinal = new JLabel(&quot;Final&quot;);&#xD;
+		GridBagConstraints gbc_lblFinal = new GridBagConstraints();&#xD;
+		gbc_lblFinal.insets = new Insets(0, 0, 5, 5);&#xD;
+		gbc_lblFinal.gridx = 0;&#xD;
+		gbc_lblFinal.gridy = 3;&#xD;
+		contentPane.add(lblFinal, gbc_lblFinal);&#xD;
+		&#xD;
+		ptsFinal = new JTextField();&#xD;
+		GridBagConstraints gbc_ptsFinal = new GridBagConstraints();&#xD;
+		gbc_ptsFinal.gridwidth = 2;&#xD;
+		gbc_ptsFinal.insets = new Insets(0, 0, 5, 5);&#xD;
+		gbc_ptsFinal.fill = GridBagConstraints.BOTH;&#xD;
+		gbc_ptsFinal.gridx = 1;&#xD;
+		gbc_ptsFinal.gridy = 3;&#xD;
+		contentPane.add(ptsFinal, gbc_ptsFinal);&#xD;
+		ptsFinal.setColumns(10);&#xD;
+&#xD;
+&#xD;
+		&#xD;
+		JLabel lblAssignments = new JLabel(&quot;Assignments&quot;);&#xD;
+		GridBagConstraints gbc_lblAssignments = new GridBagConstraints();&#xD;
+		gbc_lblAssignments.anchor = GridBagConstraints.EAST;&#xD;
+		gbc_lblAssignments.insets = new Insets(0, 0, 5, 5);&#xD;
+		gbc_lblAssignments.gridx = 0;&#xD;
+		gbc_lblAssignments.gridy = 4;&#xD;
+		contentPane.add(lblAssignments, gbc_lblAssignments);&#xD;
+		&#xD;
+		btnPtsAssign = new JButton(&quot;Enter&quot;);&#xD;
+		btnPtsAssign.addActionListener(new AssPointsListener() {				&#xD;
+			&#xD;
+		});&#xD;
+		&#xD;
+		GridBagConstraints gbc_btnPtsAssign = new GridBagConstraints();&#xD;
+		gbc_btnPtsAssign.gridwidth = 4;&#xD;
+		gbc_btnPtsAssign.insets = new Insets(0, 0, 5, 5);&#xD;
+		gbc_btnPtsAssign.gridx = 1;&#xD;
+		gbc_btnPtsAssign.gridy = 4;&#xD;
+		contentPane.add(btnPtsAssign, gbc_btnPtsAssign);&#xD;
+		&#xD;
+		totalPtsAssign = new JTextField();&#xD;
+		GridBagConstraints gbc_totalPtsAssign = new GridBagConstraints();&#xD;
+		gbc_totalPtsAssign.gridwidth = 2;&#xD;
+		gbc_totalPtsAssign.insets = new Insets(0, 0, 5, 5);&#xD;
+		gbc_totalPtsAssign.fill = GridBagConstraints.BOTH;&#xD;
+		gbc_totalPtsAssign.gridx = 6;&#xD;
+		gbc_totalPtsAssign.gridy = 4;&#xD;
+		contentPane.add(totalPtsAssign, gbc_totalPtsAssign);&#xD;
+		totalPtsAssign.setColumns(10);&#xD;
+		&#xD;
+		JLabel lblTeamProjects = new JLabel(&quot;Team Projects&quot;);&#xD;
+		GridBagConstraints gbc_lblTeamProjects = new GridBagConstraints();&#xD;
+		gbc_lblTeamProjects.anchor = GridBagConstraints.EAST;&#xD;
+		gbc_lblTeamProjects.insets = new Insets(0, 0, 5, 5);&#xD;
+		gbc_lblTeamProjects.gridx = 0;&#xD;
+		gbc_lblTeamProjects.gridy = 5;&#xD;
+		contentPane.add(lblTeamProjects, gbc_lblTeamProjects);&#xD;
+		&#xD;
+		btnPtsTeam = new JButton(&quot;Enter &quot;);&#xD;
+		btnPtsTeam.addActionListener(new TeamPointsListener() {&#xD;
+		});&#xD;
+		&#xD;
+		GridBagConstraints gbc_btnPtsTeam = new GridBagConstraints();&#xD;
+		gbc_btnPtsTeam.gridwidth = 4;&#xD;
+		gbc_btnPtsTeam.insets = new Insets(0, 0, 5, 5);&#xD;
+		gbc_btnPtsTeam.gridx = 1;&#xD;
+		gbc_btnPtsTeam.gridy = 5;&#xD;
+		contentPane.add(btnPtsTeam, gbc_btnPtsTeam);&#xD;
+		&#xD;
+		btnCalculateGrade = new JButton(&quot;Calc &quot;);&#xD;
+		btnCalculateGrade.addActionListener(new CalcListener() {			&#xD;
+		});&#xD;
+		&#xD;
+		totalPtsProject = new JTextField();&#xD;
+		GridBagConstraints gbc_totalPtsProject = new GridBagConstraints();&#xD;
+		gbc_totalPtsProject.gridwidth = 2;&#xD;
+		gbc_totalPtsProject.insets = new Insets(0, 0, 5, 5);&#xD;
+		gbc_totalPtsProject.fill = GridBagConstraints.BOTH;&#xD;
+		gbc_totalPtsProject.gridx = 6;&#xD;
+		gbc_totalPtsProject.gridy = 5;&#xD;
+		contentPane.add(totalPtsProject, gbc_totalPtsProject);&#xD;
+		totalPtsProject.setColumns(10);&#xD;
+		&#xD;
+		GridBagConstraints gbc_btnCalculateGrade = new GridBagConstraints();&#xD;
+		gbc_btnCalculateGrade.gridwidth = 2;&#xD;
+		gbc_btnCalculateGrade.insets = new Insets(0, 0, 5, 5);&#xD;
+		gbc_btnCalculateGrade.gridx = 6;&#xD;
+		gbc_btnCalculateGrade.gridy = 6;&#xD;
+		contentPane.add(btnCalculateGrade, gbc_btnCalculateGrade);&#xD;
+		&#xD;
+		finalGrade = new JTextField();&#xD;
+		GridBagConstraints gbc_finalGrade = new GridBagConstraints();&#xD;
+		gbc_finalGrade.fill = GridBagConstraints.BOTH;&#xD;
+		gbc_finalGrade.insets = new Insets(0, 0, 5, 5);&#xD;
+		gbc_finalGrade.gridx = 8;&#xD;
+		gbc_finalGrade.gridy = 6;&#xD;
+		contentPane.add(finalGrade, gbc_finalGrade);&#xD;
+		finalGrade.setColumns(10);&#xD;
+		&#xD;
+		btnClear = new JButton(&quot;CLEAR&quot;);&#xD;
+		GridBagConstraints gbc_btnClear = new GridBagConstraints();&#xD;
+		gbc_btnClear.insets = new Insets(0, 0, 0, 5);&#xD;
+		gbc_btnClear.gridx = 8;&#xD;
+		gbc_btnClear.gridy = 7;&#xD;
+		contentPane.add(btnClear, gbc_btnClear);&#xD;
+		btnClear.addActionListener(new ClearListener() {});&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_CzJ_oBH1EeqoiMHcDEQy2A" name="main" isStatic="true" method="_DCMhMBH1EeqoiMHcDEQy2A">
+                <ownedParameter xmi:id="_CzJ_oRH1EeqoiMHcDEQy2A" name="args">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CzJ_ohH1EeqoiMHcDEQy2A" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_CzmEgBH1EeqoiMHcDEQy2A" name="App" method="_DCWSNhH1EeqoiMHcDEQy2A">
+                <eAnnotations xmi:id="_CzmEgRH1EeqoiMHcDEQy2A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_CzmEghH1EeqoiMHcDEQy2A" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_CzmEgxH1EeqoiMHcDEQy2A" type="_CzAOoBH1EeqoiMHcDEQy2A" direction="return"/>
+              </ownedOperation>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_CzJ_pBH1EeqoiMHcDEQy2A" name="CalcListener" visibility="package">
+                <ownedComment xmi:id="_DCWSOxH1EeqoiMHcDEQy2A">
+                  <body>Three classes below are event handlers for the buttons: &quot;Enter points&quot;, &quot;Calculate Grade&quot; and &quot;Clear&quot;&#xD;
+	    * This is temporary, we have to spice things up</body>
+                </ownedComment>
+                <interfaceRealization xmi:id="_DBAOYBH1EeqoiMHcDEQy2A" client="_CzJ_pBH1EeqoiMHcDEQy2A" supplier="_C-xZwxH1EeqoiMHcDEQy2A" contract="_C-xZwxH1EeqoiMHcDEQy2A"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DCMhMxH1EeqoiMHcDEQy2A" name="actionPerformed" specification="_DBAOYRH1EeqoiMHcDEQy2A">
+                  <ownedParameter xmi:id="_DCMhNBH1EeqoiMHcDEQy2A" name="e" type="_C-xZxRH1EeqoiMHcDEQy2A"/>
+                  <language>java</language>
+                  <body>double n1, n2, n3, n4, n5; //numerators for the 5 categories&#xD;
+				double d1, d2, d3, d4, d5; //denominators &#xD;
+				double nt1 = 0, nt2 = 0, nt3 = 0, nt4 = 0, nt5 = 0; //numerator total&#xD;
+				double dt1 = 0, dt2 = 0, dt3 = 0, dt4 = 0, dt5 = 0; //denominator total&#xD;
+				&#xD;
+				//finds numerator and denominator for attendance&#xD;
+				int dd1 = ptsAtten.getText().indexOf('/');&#xD;
+				String p1 = ptsAtten.getText();&#xD;
+				n1 = Integer.parseInt(p1.substring(0, dd1));&#xD;
+				d1 = Integer.parseInt(p1.substring(dd1 + 1));&#xD;
+				nt1 += n1;				&#xD;
+				dt1 += d1;&#xD;
+				&#xD;
+				//finds numerator and denominator for midterm&#xD;
+				int dd2 = ptsMid.getText().indexOf('/');&#xD;
+				String p2 = ptsMid.getText();&#xD;
+				n2 = Integer.parseInt(p2.substring(0, dd2));&#xD;
+				d2 = Integer.parseInt(p2.substring(dd2 + 1));&#xD;
+				nt2 += n2;				&#xD;
+				dt2 += d2;&#xD;
+				&#xD;
+				//finds numerator and denominator for final&#xD;
+				int dd3 = ptsFinal.getText().indexOf('/');&#xD;
+				String p3 = ptsFinal.getText();&#xD;
+				n3 = Integer.parseInt(p3.substring(0, dd3));&#xD;
+				d3 = Integer.parseInt(p3.substring(dd3 + 1));&#xD;
+				nt3 += n3;				&#xD;
+				dt3 += d3;&#xD;
+				&#xD;
+				//finds numerator and denominator for Assignments&#xD;
+				int dd4 = totalPtsAssign.getText().indexOf('/');&#xD;
+				String p4 = totalPtsAssign.getText();&#xD;
+				n4 = Integer.parseInt(p4.substring(0, dd4));&#xD;
+				d4 = Integer.parseInt(p4.substring(dd4 + 1));&#xD;
+				nt4 += n4;				&#xD;
+				dt4 += d4;&#xD;
+				&#xD;
+				//finds numerator and denominator for Team Projects&#xD;
+				int dd5 = totalPtsProject.getText().indexOf('/');&#xD;
+				String p5 = totalPtsProject.getText();&#xD;
+				n5 = Integer.parseInt(p5.substring(0, dd5));&#xD;
+				d5 = Integer.parseInt(p5.substring(dd5 + 1));&#xD;
+				nt5 += n5;				&#xD;
+				dt5 += d5;&#xD;
+				&#xD;
+				//String g = calculateGrade(nt1, dt1, nt2, dt2, nt3, dt3, nt4, dt4, nt5, dt5);&#xD;
+				&#xD;
+				//calcs percentage &#xD;
+				double grade = ((nt1 / dt1)*(0.01) + (nt2 /dt2 )*(.19) + (nt3/ dt3)*(.25) + (nt4 / dt4)*(.25) + (nt5 / dt5)*(.30))  * 100; &#xD;
+				&#xD;
+				String g = &quot;&quot;;&#xD;
+				 if (grade &lt;= 100 &amp;&amp; grade >= 95) {&#xD;
+		             g = &quot;A&quot;;&#xD;
+		        }&#xD;
+		        else if (grade &lt;= 94 &amp;&amp; grade >= 90) {&#xD;
+		             g = &quot;A-&quot;;&#xD;
+		        }&#xD;
+		        else if (grade &lt;= 89 &amp;&amp; grade >= 86) {&#xD;
+		             g = &quot;B+&quot;;&#xD;
+		        }&#xD;
+		        else if (grade &lt;= 85 &amp;&amp; grade >= 82) {&#xD;
+		             g = &quot;B&quot;;&#xD;
+		        }&#xD;
+		        else if (grade &lt;= 81 &amp;&amp; grade >= 80) {&#xD;
+		             g = &quot;B-&quot;;&#xD;
+		        }&#xD;
+		        else if (grade &lt;= 79 &amp;&amp; grade >= 76) {&#xD;
+		             g = &quot;C+&quot;;&#xD;
+		        }&#xD;
+		        else if (grade &lt;= 75 &amp;&amp; grade >= 72) {&#xD;
+		             g = &quot;C&quot;;&#xD;
+		        }&#xD;
+		        else if (grade &lt;= 71 &amp;&amp; grade >= 70) {&#xD;
+		             g = &quot;C-&quot;;&#xD;
+		        }&#xD;
+		        else if (grade &lt;= 69 &amp;&amp; grade >= 66) {&#xD;
+		             g = &quot;D+&quot;;&#xD;
+		        }&#xD;
+		        else if (grade &lt;= 65 &amp;&amp; grade >= 63) {&#xD;
+		             g = &quot;D&quot;;&#xD;
+		        }&#xD;
+		        else {&#xD;
+		        	g = &quot;F&quot;;&#xD;
+		        }&#xD;
+				 finalGrade.setText(g);&#xD;
+			</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_DBAOYRH1EeqoiMHcDEQy2A" name="actionPerformed" method="_DCMhMxH1EeqoiMHcDEQy2A">
+                  <ownedParameter xmi:id="_DBAOYhH1EeqoiMHcDEQy2A" name="e" type="_C-xZxRH1EeqoiMHcDEQy2A"/>
+                </ownedOperation>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_CzTJkBH1EeqoiMHcDEQy2A" name="ClearListener" visibility="package">
+                <ownedComment xmi:id="_DCWSPBH1EeqoiMHcDEQy2A">
+                  <body> @author Gurnit&#xD;
+		 *Action event for Clear Button</body>
+                </ownedComment>
+                <interfaceRealization xmi:id="_DBJ_YBH1EeqoiMHcDEQy2A" client="_CzTJkBH1EeqoiMHcDEQy2A" supplier="_C-xZwxH1EeqoiMHcDEQy2A" contract="_C-xZwxH1EeqoiMHcDEQy2A"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DCWSMBH1EeqoiMHcDEQy2A" name="actionPerformed" specification="_DBJ_YRH1EeqoiMHcDEQy2A">
+                  <ownedParameter xmi:id="_DCWSMRH1EeqoiMHcDEQy2A" name="e" type="_C-xZxRH1EeqoiMHcDEQy2A"/>
+                  <language>java</language>
+                  <body>ptsAtten.setText(&quot;&quot;);&#xD;
+					ptsMid.setText(&quot;&quot;);&#xD;
+					ptsFinal.setText(&quot;&quot;);					&#xD;
+					finalGrade.setText(&quot;&quot;);&#xD;
+					totalPtsAssign.setText(&quot;&quot;);&#xD;
+					totalPtsProject.setText(&quot;&quot;);&#xD;
+					&#xD;
+					&#xD;
+				</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_DBJ_YRH1EeqoiMHcDEQy2A" name="actionPerformed" method="_DCWSMBH1EeqoiMHcDEQy2A">
+                  <ownedParameter xmi:id="_DBJ_YhH1EeqoiMHcDEQy2A" name="e" type="_C-xZxRH1EeqoiMHcDEQy2A"/>
+                </ownedOperation>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_CzTJkRH1EeqoiMHcDEQy2A" name="AssPointsListener" visibility="package">
+                <ownedComment xmi:id="_DCWSPRH1EeqoiMHcDEQy2A">
+                  <body>&#xD;
+		 * pops up dialog box for students to enter points for Team Projects&#xD;
+		 *  UPDATE: finished pop up  dialog , need to add weights to categories &#xD;
+		 *</body>
+                </ownedComment>
+                <interfaceRealization xmi:id="_DBJ_YxH1EeqoiMHcDEQy2A" client="_CzTJkRH1EeqoiMHcDEQy2A" supplier="_C-xZwxH1EeqoiMHcDEQy2A" contract="_C-xZwxH1EeqoiMHcDEQy2A"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DCWSMhH1EeqoiMHcDEQy2A" name="actionPerformed" specification="_DBJ_ZBH1EeqoiMHcDEQy2A">
+                  <ownedParameter xmi:id="_DCWSMxH1EeqoiMHcDEQy2A" name="e" type="_C-xZxRH1EeqoiMHcDEQy2A"/>
+                  <language>java</language>
+                  <body>JTextField num = new JTextField();&#xD;
+				Object[] assNum = {&#xD;
+						&quot;Number of Assignments: &quot;, num&#xD;
+				};&#xD;
+				int selection = JOptionPane.showConfirmDialog(null, assNum, &quot;Enter Number of Assignments: &quot;,JOptionPane.OK_CANCEL_OPTION,JOptionPane.PLAIN_MESSAGE);&#xD;
+				int number = Integer.parseInt(num.getText());&#xD;
+				double numerator = 0;&#xD;
+				double denominator = 0;&#xD;
+				int ntotal =0;&#xD;
+				int dtotal = 0;&#xD;
+				double[]fractionsNum = new double [10];&#xD;
+				double[]fractionsDen = new double[10];&#xD;
+				int j = 0;&#xD;
+				if(selection == JOptionPane.OK_OPTION)&#xD;
+				{&#xD;
+					for(int i = 1 ; i &lt;= number; i++) {					&#xD;
+					JTextField n = new JTextField();&#xD;
+					Object[] points = {&quot;Enter Points for assignment &quot; + i + &quot;: &quot;, n };					&#xD;
+					int input = JOptionPane.showConfirmDialog(null, points, &quot;Enter Number of Assignments: &quot;,JOptionPane.OK_CANCEL_OPTION,JOptionPane.PLAIN_MESSAGE);&#xD;
+					int divide = n.getText().indexOf('/');&#xD;
+					String p = n.getText();&#xD;
+					numerator = Double.parseDouble(p.substring(0, divide));&#xD;
+					denominator = Double.parseDouble(p.substring(divide + 1));&#xD;
+							&#xD;
+					fractionsNum[j] = numerator;&#xD;
+					fractionsDen[j] = denominator;&#xD;
+					j++;						&#xD;
+							&#xD;
+					&#xD;
+					ntotal += numerator;				&#xD;
+					dtotal += denominator;					&#xD;
+					&#xD;
+				} 				&#xD;
+					double numMin = 0;&#xD;
+					double denMin = 0;&#xD;
+					double min = fractionsNum[0]/fractionsDen[0];&#xD;
+					for(int i = 1; i&lt;10; i++){						&#xD;
+						&#xD;
+						if(fractionsNum[i]/fractionsDen[i] &lt; min)&#xD;
+						{&#xD;
+							min = (fractionsNum[i]/fractionsDen[i]);&#xD;
+							numMin = fractionsNum[i];&#xD;
+							denMin = fractionsDen[i];							&#xD;
+						}&#xD;
+					}&#xD;
+					&#xD;
+					ntotal -= numMin;&#xD;
+					dtotal -= denMin;&#xD;
+					System.out.println(ntotal + &quot; / &quot; + dtotal);&#xD;
+					System.out.println(&quot;Lowest Assignment dropped: &quot; + numMin + &quot;/&quot; + denMin);&#xD;
+					&#xD;
+					totalPtsAssign.setText( ntotal + &quot;/&quot; + dtotal); 				&#xD;
+			}&#xD;
+		</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_DBJ_ZBH1EeqoiMHcDEQy2A" name="actionPerformed" method="_DCWSMhH1EeqoiMHcDEQy2A">
+                  <ownedParameter xmi:id="_DBJ_ZRH1EeqoiMHcDEQy2A" name="e" type="_C-xZxRH1EeqoiMHcDEQy2A"/>
+                </ownedOperation>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Czc6kBH1EeqoiMHcDEQy2A" name="TeamPointsListener" visibility="package">
+                <interfaceRealization xmi:id="_DBJ_ZhH1EeqoiMHcDEQy2A" client="_Czc6kBH1EeqoiMHcDEQy2A" supplier="_C-xZwxH1EeqoiMHcDEQy2A" contract="_C-xZwxH1EeqoiMHcDEQy2A"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DCWSNBH1EeqoiMHcDEQy2A" name="actionPerformed" specification="_DBJ_ZxH1EeqoiMHcDEQy2A">
+                  <ownedParameter xmi:id="_DCWSNRH1EeqoiMHcDEQy2A" name="e" type="_C-xZxRH1EeqoiMHcDEQy2A"/>
+                  <language>java</language>
+                  <body>JTextField num = new JTextField();&#xD;
+				Object[] assNum = {&#xD;
+						&quot;Number of Team Projects: &quot;, num&#xD;
+				};&#xD;
+				int selection = JOptionPane.showConfirmDialog(null, assNum, &quot;Enter Number of Team Projects: &quot;,JOptionPane.OK_CANCEL_OPTION,JOptionPane.PLAIN_MESSAGE);&#xD;
+				int number = Integer.parseInt(num.getText());&#xD;
+				int numerator = 0;&#xD;
+				int denominator = 0;&#xD;
+				int ntotal =0;&#xD;
+				int dtotal = 0;&#xD;
+				if(selection == JOptionPane.OK_OPTION)&#xD;
+				{&#xD;
+					for(int i = 1 ; i &lt;= number; i++) {					&#xD;
+					JTextField n = new JTextField();&#xD;
+					Object[] points = {&quot;Enter Points for project &quot; + i + &quot;: &quot;, n };					&#xD;
+					int input = JOptionPane.showConfirmDialog(null, points, &quot;Enter Number of Projects: &quot;,JOptionPane.OK_CANCEL_OPTION,JOptionPane.PLAIN_MESSAGE);&#xD;
+					int divide = n.getText().indexOf('/');&#xD;
+					String p = n.getText();&#xD;
+					numerator = Integer.parseInt(p.substring(0, divide));&#xD;
+					denominator = Integer.parseInt(p.substring(divide + 1));&#xD;
+					ntotal += numerator;				&#xD;
+					dtotal += denominator;&#xD;
+				} &#xD;
+					totalPtsProject.setText( ntotal + &quot;/&quot; + dtotal); 				&#xD;
+			}&#xD;
+		</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_DBJ_ZxH1EeqoiMHcDEQy2A" name="actionPerformed" method="_DCWSNBH1EeqoiMHcDEQy2A">
+                  <ownedParameter xmi:id="_DBJ_aBH1EeqoiMHcDEQy2A" name="e" type="_C-xZxRH1EeqoiMHcDEQy2A"/>
+                </ownedOperation>
+              </nestedClassifier>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_C0MhcBH1EeqoiMHcDEQy2A" name="AppTest">
+              <eAnnotations xmi:id="_C0MhcRH1EeqoiMHcDEQy2A" source="http://ns.yatta.de/umllab">
+                <contents xmi:type="ecore:EAnnotation" xmi:id="_C0MhchH1EeqoiMHcDEQy2A" source="codegen">
+                  <details xmi:id="_C0MhcxH1EeqoiMHcDEQy2A" key="codegenDirectory" value="/gradeCalculator/src/test/java"/>
+                </contents>
+              </eAnnotations>
+              <ownedComment xmi:id="_DCWSPhH1EeqoiMHcDEQy2A">
+                <body>Unit test for simple App.</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_DBv1QxH1EeqoiMHcDEQy2A" name="window" visibility="private" type="_C_qxoxH1EeqoiMHcDEQy2A" association="_DCy-MBH1EeqoiMHcDEQy2A"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DCWSOBH1EeqoiMHcDEQy2A" name="setUp" specification="_C0WScBH1EeqoiMHcDEQy2A">
+                <language>java</language>
+                <body>App frame = new App();&#xD;
+		  window = new FrameFixture(frame);&#xD;
+		  window.show(); // shows the frame to test&#xD;
+		</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DCWSORH1EeqoiMHcDEQy2A" name="appTest" specification="_C0WSdBH1EeqoiMHcDEQy2A">
+                <language>java</language>
+                <body>window.textBox(&quot;ptsMid&quot;).enterText(&quot;Some random text&quot;);&#xD;
+	    window.button(&quot;btnCalculateGrade&quot;).click();&#xD;
+	    window.label(&quot;lblAtten&quot;).requireText(&quot;Attendance&quot;);&#xD;
+	  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DCWSOhH1EeqoiMHcDEQy2A" name="shouldAnswerWithTrue" specification="_C0WSeBH1EeqoiMHcDEQy2A">
+                <language>java</language>
+                <body>Assertions.assertTrue( true );&#xD;
+ </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_C0WScBH1EeqoiMHcDEQy2A" name="setUp" method="_DCWSOBH1EeqoiMHcDEQy2A"/>
+              <ownedOperation xmi:id="_C0WSdBH1EeqoiMHcDEQy2A" name="appTest" method="_DCWSORH1EeqoiMHcDEQy2A"/>
+              <ownedOperation xmi:id="_C0WSeBH1EeqoiMHcDEQy2A" name="shouldAnswerWithTrue" method="_DCWSOhH1EeqoiMHcDEQy2A"/>
+              <ownedOperation xmi:id="_C0fcYxH1EeqoiMHcDEQy2A" name="appTest1"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_DCfcIBH1EeqoiMHcDEQy2A" name="" memberEnd="_DCfcIRH1EeqoiMHcDEQy2A _DBTwYBH1EeqoiMHcDEQy2A">
+              <ownedEnd xmi:id="_DCfcIRH1EeqoiMHcDEQy2A" name="" type="_CzAOoBH1EeqoiMHcDEQy2A" association="_DCfcIBH1EeqoiMHcDEQy2A"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_DCfcIxH1EeqoiMHcDEQy2A" name="" memberEnd="_DCfcJBH1EeqoiMHcDEQy2A _DBc6UBH1EeqoiMHcDEQy2A">
+              <ownedEnd xmi:id="_DCfcJBH1EeqoiMHcDEQy2A" name="" type="_CzAOoBH1EeqoiMHcDEQy2A" association="_DCfcIxH1EeqoiMHcDEQy2A"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_DCpNIRH1EeqoiMHcDEQy2A" name="" memberEnd="_DCpNIhH1EeqoiMHcDEQy2A _DBc6UhH1EeqoiMHcDEQy2A">
+              <ownedEnd xmi:id="_DCpNIhH1EeqoiMHcDEQy2A" name="" type="_CzAOoBH1EeqoiMHcDEQy2A" association="_DCpNIRH1EeqoiMHcDEQy2A"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_DCpNJBH1EeqoiMHcDEQy2A" name="" memberEnd="_DCpNJRH1EeqoiMHcDEQy2A _DBc6VBH1EeqoiMHcDEQy2A">
+              <ownedEnd xmi:id="_DCpNJRH1EeqoiMHcDEQy2A" name="" type="_CzAOoBH1EeqoiMHcDEQy2A" association="_DCpNJBH1EeqoiMHcDEQy2A"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_DCpNJxH1EeqoiMHcDEQy2A" name="" memberEnd="_DCpNKBH1EeqoiMHcDEQy2A _DBc6VhH1EeqoiMHcDEQy2A">
+              <ownedEnd xmi:id="_DCpNKBH1EeqoiMHcDEQy2A" name="" type="_CzAOoBH1EeqoiMHcDEQy2A" association="_DCpNJxH1EeqoiMHcDEQy2A"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_DCpNKhH1EeqoiMHcDEQy2A" name="" memberEnd="_DCpNKxH1EeqoiMHcDEQy2A _DBc6WBH1EeqoiMHcDEQy2A">
+              <ownedEnd xmi:id="_DCpNKxH1EeqoiMHcDEQy2A" name="" type="_CzAOoBH1EeqoiMHcDEQy2A" association="_DCpNKhH1EeqoiMHcDEQy2A"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_DCpNLRH1EeqoiMHcDEQy2A" name="" memberEnd="_DCpNLhH1EeqoiMHcDEQy2A _DBmrUBH1EeqoiMHcDEQy2A">
+              <ownedEnd xmi:id="_DCpNLhH1EeqoiMHcDEQy2A" name="" type="_CzAOoBH1EeqoiMHcDEQy2A" association="_DCpNLRH1EeqoiMHcDEQy2A"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_DCy-IRH1EeqoiMHcDEQy2A" name="" memberEnd="_DCy-IhH1EeqoiMHcDEQy2A _DBmrUhH1EeqoiMHcDEQy2A">
+              <ownedEnd xmi:id="_DCy-IhH1EeqoiMHcDEQy2A" name="" type="_CzAOoBH1EeqoiMHcDEQy2A" association="_DCy-IRH1EeqoiMHcDEQy2A"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_DCy-JBH1EeqoiMHcDEQy2A" name="" memberEnd="_DCy-JRH1EeqoiMHcDEQy2A _DBmrVBH1EeqoiMHcDEQy2A">
+              <ownedEnd xmi:id="_DCy-JRH1EeqoiMHcDEQy2A" name="" type="_CzAOoBH1EeqoiMHcDEQy2A" association="_DCy-JBH1EeqoiMHcDEQy2A"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_DCy-JxH1EeqoiMHcDEQy2A" name="" memberEnd="_DCy-KBH1EeqoiMHcDEQy2A _DBmrVhH1EeqoiMHcDEQy2A">
+              <ownedEnd xmi:id="_DCy-KBH1EeqoiMHcDEQy2A" name="" type="_CzAOoBH1EeqoiMHcDEQy2A" association="_DCy-JxH1EeqoiMHcDEQy2A"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_DCy-KhH1EeqoiMHcDEQy2A" name="" memberEnd="_DCy-KxH1EeqoiMHcDEQy2A _DBmrWBH1EeqoiMHcDEQy2A">
+              <ownedEnd xmi:id="_DCy-KxH1EeqoiMHcDEQy2A" name="" type="_CzAOoBH1EeqoiMHcDEQy2A" association="_DCy-KhH1EeqoiMHcDEQy2A"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_DCy-LRH1EeqoiMHcDEQy2A" name="" memberEnd="_DCy-LhH1EeqoiMHcDEQy2A _DBv1QRH1EeqoiMHcDEQy2A">
+              <ownedEnd xmi:id="_DCy-LhH1EeqoiMHcDEQy2A" name="" type="_CzAOoBH1EeqoiMHcDEQy2A" association="_DCy-LRH1EeqoiMHcDEQy2A"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_DCy-MBH1EeqoiMHcDEQy2A" name="" memberEnd="_DCy-MRH1EeqoiMHcDEQy2A _DBv1QxH1EeqoiMHcDEQy2A">
+              <ownedEnd xmi:id="_DCy-MRH1EeqoiMHcDEQy2A" name="" type="_C0MhcBH1EeqoiMHcDEQy2A" association="_DCy-MBH1EeqoiMHcDEQy2A"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Cw6j8RH1EeqoiMHcDEQy2A" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Cw6j8hH1EeqoiMHcDEQy2A" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Cw6j9hH1EeqoiMHcDEQy2A" name="event">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_C-xZwxH1EeqoiMHcDEQy2A" name="ActionListener"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_C-xZxRH1EeqoiMHcDEQy2A" name="ActionEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C9bV8RH1EeqoiMHcDEQy2A" name="BorderLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C94B4RH1EeqoiMHcDEQy2A" name="Color"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C94B4xH1EeqoiMHcDEQy2A" name="EventQueue"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C-Lj4xH1EeqoiMHcDEQy2A" name="GridBagLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C-Lj5RH1EeqoiMHcDEQy2A" name="GridLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C-ee0RH1EeqoiMHcDEQy2A" name="GridBagConstraints"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C-ee0xH1EeqoiMHcDEQy2A" name="Insets"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C-ee1xH1EeqoiMHcDEQy2A" name="Component"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C-xZxxH1EeqoiMHcDEQy2A" name="SystemColor"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Cw6j8xH1EeqoiMHcDEQy2A" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Cw6j9BH1EeqoiMHcDEQy2A" name="swing">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Cw6j9RH1EeqoiMHcDEQy2A" name="border">
+          <packagedElement xmi:type="uml:Class" xmi:id="_C-Lj4RH1EeqoiMHcDEQy2A" name="EmptyBorder"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C94B5RH1EeqoiMHcDEQy2A" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C-By4RH1EeqoiMHcDEQy2A" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C-Ut0BH1EeqoiMHcDEQy2A" name="JLabel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C-Ut0hH1EeqoiMHcDEQy2A" name="JOptionPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C-ee1RH1EeqoiMHcDEQy2A" name="JTextField"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C-nowRH1EeqoiMHcDEQy2A" name="BorderFactory"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C-nowxH1EeqoiMHcDEQy2A" name="Box"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C-noxRH1EeqoiMHcDEQy2A" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C-xZwRH1EeqoiMHcDEQy2A" name="JDialog"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Cx9s0BH1EeqoiMHcDEQy2A" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Cx9s0RH1EeqoiMHcDEQy2A" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Cx9s0hH1EeqoiMHcDEQy2A" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Cx9s0xH1EeqoiMHcDEQy2A" name="api">
+            <packagedElement xmi:type="uml:Class" xmi:id="_C_hAohH1EeqoiMHcDEQy2A" name="Assertions"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_C_qxoRH1EeqoiMHcDEQy2A" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_C_hAoBH1EeqoiMHcDEQy2A" name="Before"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Cx9s1BH1EeqoiMHcDEQy2A" name="assertj">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Cx9s1RH1EeqoiMHcDEQy2A" name="swing">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Cx9s1hH1EeqoiMHcDEQy2A" name="fixture">
+            <packagedElement xmi:type="uml:Class" xmi:id="_C_qxoxH1EeqoiMHcDEQy2A" name="FrameFixture"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_CFRl8xH1EeqoiMHcDEQy2A">
+      <eAnnotations xmi:id="_CFRl9BH1EeqoiMHcDEQy2A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_CFRl9RH1EeqoiMHcDEQy2A" base_Package="_B1VFcBH1EeqoiMHcDEQy2A">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Array xmi:id="_CzJ_oxH1EeqoiMHcDEQy2A" base_Element="_CzJ_oRH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_C0WScRH1EeqoiMHcDEQy2A" base_Element="_C0WScBH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Annotations xmi:id="_C0WSchH1EeqoiMHcDEQy2A" base_Element="_C0WScBH1EeqoiMHcDEQy2A">
+    <annotations xmi:id="_C0WScxH1EeqoiMHcDEQy2A" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_C0WSdRH1EeqoiMHcDEQy2A" base_Element="_C0WSdBH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Annotations xmi:id="_C0WSdhH1EeqoiMHcDEQy2A" base_Element="_C0WSdBH1EeqoiMHcDEQy2A">
+    <annotations xmi:id="_C0WSdxH1EeqoiMHcDEQy2A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_C0fcYBH1EeqoiMHcDEQy2A" base_Element="_C0WSeBH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Annotations xmi:id="_C0fcYRH1EeqoiMHcDEQy2A" base_Element="_C0WSeBH1EeqoiMHcDEQy2A">
+    <annotations xmi:id="_C0fcYhH1EeqoiMHcDEQy2A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_C0fcZBH1EeqoiMHcDEQy2A" base_Element="_C0fcYxH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Annotations xmi:id="_C0fcZRH1EeqoiMHcDEQy2A" base_Element="_C0fcYxH1EeqoiMHcDEQy2A">
+    <annotations xmi:id="_C0fcZhH1EeqoiMHcDEQy2A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_C94B4BH1EeqoiMHcDEQy2A" base_Element="_C9bV8RH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C94B4hH1EeqoiMHcDEQy2A" base_Element="_C94B4RH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C94B5BH1EeqoiMHcDEQy2A" base_Element="_C94B4xH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-By4BH1EeqoiMHcDEQy2A" base_Element="_C94B5RH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-Lj4BH1EeqoiMHcDEQy2A" base_Element="_C-By4RH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-Lj4hH1EeqoiMHcDEQy2A" base_Element="_C-Lj4RH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-Lj5BH1EeqoiMHcDEQy2A" base_Element="_C-Lj4xH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-Lj5hH1EeqoiMHcDEQy2A" base_Element="_C-Lj5RH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-Ut0RH1EeqoiMHcDEQy2A" base_Element="_C-Ut0BH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-ee0BH1EeqoiMHcDEQy2A" base_Element="_C-Ut0hH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-ee0hH1EeqoiMHcDEQy2A" base_Element="_C-ee0RH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-ee1BH1EeqoiMHcDEQy2A" base_Element="_C-ee0xH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-ee1hH1EeqoiMHcDEQy2A" base_Element="_C-ee1RH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-nowBH1EeqoiMHcDEQy2A" base_Element="_C-ee1xH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-nowhH1EeqoiMHcDEQy2A" base_Element="_C-nowRH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-noxBH1EeqoiMHcDEQy2A" base_Element="_C-nowxH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-xZwBH1EeqoiMHcDEQy2A" base_Element="_C-noxRH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-xZwhH1EeqoiMHcDEQy2A" base_Element="_C-xZwRH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-xZxBH1EeqoiMHcDEQy2A" base_Element="_C-xZwxH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-xZxhH1EeqoiMHcDEQy2A" base_Element="_C-xZxRH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C-xZyBH1EeqoiMHcDEQy2A" base_Element="_C-xZxxH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C_hAoRH1EeqoiMHcDEQy2A" base_Element="_C_hAoBH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C_qxoBH1EeqoiMHcDEQy2A" base_Element="_C_hAohH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C_qxohH1EeqoiMHcDEQy2A" base_Element="_C_qxoRH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_C_qxpBH1EeqoiMHcDEQy2A" base_Element="_C_qxoxH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DBTwYRH1EeqoiMHcDEQy2A" base_Element="_DBTwYBH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DBc6URH1EeqoiMHcDEQy2A" base_Element="_DBc6UBH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DBc6UxH1EeqoiMHcDEQy2A" base_Element="_DBc6UhH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DBc6VRH1EeqoiMHcDEQy2A" base_Element="_DBc6VBH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DBc6VxH1EeqoiMHcDEQy2A" base_Element="_DBc6VhH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DBc6WRH1EeqoiMHcDEQy2A" base_Element="_DBc6WBH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DBmrURH1EeqoiMHcDEQy2A" base_Element="_DBmrUBH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DBmrUxH1EeqoiMHcDEQy2A" base_Element="_DBmrUhH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DBmrVRH1EeqoiMHcDEQy2A" base_Element="_DBmrVBH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DBmrVxH1EeqoiMHcDEQy2A" base_Element="_DBmrVhH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DBv1QBH1EeqoiMHcDEQy2A" base_Element="_DBmrWBH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DBv1QhH1EeqoiMHcDEQy2A" base_Element="_DBv1QRH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_DBv1RBH1EeqoiMHcDEQy2A" base_Element="_DBv1QxH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_DCfcIhH1EeqoiMHcDEQy2A" base_Element="_DCfcIBH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_DCpNIBH1EeqoiMHcDEQy2A" base_Element="_DCfcIxH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_DCpNIxH1EeqoiMHcDEQy2A" base_Element="_DCpNIRH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_DCpNJhH1EeqoiMHcDEQy2A" base_Element="_DCpNJBH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_DCpNKRH1EeqoiMHcDEQy2A" base_Element="_DCpNJxH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_DCpNLBH1EeqoiMHcDEQy2A" base_Element="_DCpNKhH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_DCy-IBH1EeqoiMHcDEQy2A" base_Element="_DCpNLRH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_DCy-IxH1EeqoiMHcDEQy2A" base_Element="_DCy-IRH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_DCy-JhH1EeqoiMHcDEQy2A" base_Element="_DCy-JBH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_DCy-KRH1EeqoiMHcDEQy2A" base_Element="_DCy-JxH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_DCy-LBH1EeqoiMHcDEQy2A" base_Element="_DCy-KhH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_DCy-LxH1EeqoiMHcDEQy2A" base_Element="_DCy-LRH1EeqoiMHcDEQy2A"/>
+  <UMLLabProfile:Reference xmi:id="_DC8IEBH1EeqoiMHcDEQy2A" base_Element="_DCy-MBH1EeqoiMHcDEQy2A"/>
+</xmi:XMI>
